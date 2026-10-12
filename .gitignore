@@ -9,35 +9,28 @@ dist/
 *.egg-info/
 .eggs/
 
-# Виртуальные окружения
-venv/
+env/
 env/
 .venv/
 ENV/
 
-# PyCharm / IDE
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Собранные exe (auto-py-to-exe)
 *.exe
 auto-py-to-exe/
 
-# Логи и временные файлы
 *.log
 *.tmp
 .cache/
 
-# Jupyter (если есть)
 .ipynb_checkpoints/
 
-# OS
 .DS_Store
 Thumbs.db
 
-# Секреты (на будущее)
 .env
 *.env
 config_local.py
